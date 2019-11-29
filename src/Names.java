@@ -1,6 +1,6 @@
 public class Names {
 
-    public void main(String[] args){
+    public static void main(String[] args){
         boolean shit = true;
 
         String name1= "Robert";
@@ -28,7 +28,7 @@ public class Names {
         }*/
     }
 
-    public void checkNameForR(String name){
+    public static void checkNameForR(String name){
         if(name.contains("r")||name.contains("R")){
             System.out.println(name);
         }
