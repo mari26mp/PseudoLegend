@@ -1,6 +1,7 @@
 public class HelloWorld{
 
     public static void main(String[] args){
+        pseudoled();
         Hi();
         hiRobert();
         String loco = "MEH";
@@ -17,4 +18,8 @@ public class HelloWorld{
         System.out.println("Hello Robert");
         Hi();
     }
+    public static void pseudoled(){
+        System.out.println("Sick");
+    }
+
 }
